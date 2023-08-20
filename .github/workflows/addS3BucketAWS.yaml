@@ -1,0 +1,7 @@
+name: addS3BucketAWS
+on:
+    push:
+      branches: [master]
+jobs:
+    build:
+      runs-on: ubuntu-latest
